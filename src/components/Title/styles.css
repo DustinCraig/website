@@ -1,0 +1,26 @@
+.title {
+    font-size: 5rem;
+    padding: 2rem;
+    color: #fefefefe;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.underline {
+    width: 100%;
+    animation: grow 2.5s;
+}
+
+.underline-container {
+    width: 70%;
+    text-align: left;
+}
+
+@keyframes grow {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
