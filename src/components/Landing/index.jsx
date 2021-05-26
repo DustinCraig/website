@@ -7,7 +7,7 @@ const Landing = () => {
     return (
         <Jumbotron className='jumbotron'>
             <Title text={'Dustin Craig'} />
-            <Subtitle text={'Passionate Software Engineer'} />
+            <Subtitle text={'Software Engineer'} />
         </Jumbotron>
     )
 }

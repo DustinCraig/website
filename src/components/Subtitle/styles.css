@@ -5,11 +5,17 @@
     animation: fade-in 4s;
 }
 
-@keyframes fade-in {
+@media screen and (max-width: 600px) {
+    .subtitle {
+        font-size: 30px;
+    }
+}
+
+/* @keyframes fade-in {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
     }
-}
+} */

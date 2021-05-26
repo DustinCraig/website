@@ -1,18 +1,25 @@
 .title {
     font-size: 5rem;
     padding: 2rem;
+    padding-left: 0;
     color: #fefefefe;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
 .underline {
     width: 100%;
-    animation: grow 2.5s;
+    animation: grow 2s;
 }
 
 .underline-container {
-    width: 70%;
+    width: 100%;
     text-align: left;
 }
 
