@@ -15,6 +15,15 @@ const Desk = () => (
             <boxGeometry />
             <meshPhongMaterial />
         </mesh>
+
+        <mesh
+            scale={[0.3, 4, 0.3]}
+            position={[4, -1, 10]}
+            rotation={[0, 20, 0]}
+        >
+            <boxGeometry />
+            <meshPhongMaterial />
+        </mesh>
     </>
 )
 
