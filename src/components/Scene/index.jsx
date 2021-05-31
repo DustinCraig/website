@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import Desk from './Desk'
+import Resume from './Resume'
 import { Canvas } from '@react-three/fiber'
 
 const Scene = () => {
@@ -10,6 +11,7 @@ const Scene = () => {
                 <pointLight position={[10, 15, 10]} />
                 <directionalLight intensity={4.16} />
                 <Suspense fallback={<> </>}>
+                    <Resume />
                     <Desk />
                 </Suspense>
             </Canvas>

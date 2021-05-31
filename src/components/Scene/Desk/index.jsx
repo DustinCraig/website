@@ -21,7 +21,7 @@ const Desk = () => (
         {/* Front Right */}
         <mesh
             scale={[0.3, 4, 0.3]}
-            position={[2.1, -1.9, 3.9]}
+            position={[2.3, -1.9, 3.9]}
             rotation={[0, 20, 0]}
         >
             <boxGeometry />
