@@ -1,8 +1,13 @@
-import React from 'react' 
+import React from 'react'
 import Image from '../../../assets/images/Github.png'
+import './styles.css'
 
 const Github = () => (
-    <a target='__blank' href='https://github.com/DustinCraig/' style={{margin: 10}}>
+    <a
+        target='__blank'
+        href='https://github.com/DustinCraig/'
+        className='social-icon'
+    >
         <img src={Image} alt='Github' />
     </a>
 )

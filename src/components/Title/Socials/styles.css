@@ -1,0 +1,10 @@
+.social-icon {
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+.social-icon :hover {
+    border: 2px solid #2baabf;
+    border-radius: 34px;
+    margin: -2px;
+}
