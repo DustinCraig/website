@@ -7,8 +7,6 @@ import './styles.css'
 const Landing = () => {
     return (
         <Jumbotron className='jumbotron'>
-            <Title text={'Dustin Craig'} />
-            <Subtitle text={'Software Engineer'} />
             <Scene />
         </Jumbotron>
     )
