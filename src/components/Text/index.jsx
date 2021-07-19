@@ -1,3 +1,7 @@
 import React from 'react'
 
-const Text = ({ text = '' }) => <p>{text}</p>
+const Text = ({ text = '' }) => (
+    <span style={{ color: '#fefefefe', fontSize: '1.5rem' }}>{text}</span>
+)
+
+export default Text
