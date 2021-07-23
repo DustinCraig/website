@@ -6,23 +6,35 @@ import Image from '../../assets/images/Avatar.jpeg'
 
 const About = () => (
     <Container style={{ marginTop: '4rem' }}>
-        <Col lg={{ span: 10 }}>
-            <SpecialText text='Hello! ' />
-            <Text
-                text={`
+        <Col xs={3}>
+            <div
+                style={{
+                    width: '70%',
+                    borderRight: '1px solid rgba(165, 159, 165, 0.4)',
+                    paddingRight: 45,
+                    height: '70%',
+                    textAlign: 'justify',
+                }}
+            >
+                <SpecialText text='Hello! ' />
+                <br />
+                <Text
+                    text={`
             My name is Dustin Craig, a Software Engineer seeking to solve
             unique, challenging problems. It is my passion to develop creative,
             long-lasting products.`}
-            />
-            <br /> <br />
-            <Text
-                text={`
+                />
+                <br /> <br />
+                <Text
+                    text={`
             I am interested in all things relating to Software/Web Development
-            and Computer Graphics.
-        `}
-            />
+            and Computer Graphics. I found my passion for programming at 13 years old and haven't stopped since!
+            
+            `}
+                />
+            </div>
         </Col>
-        <Col>
+        <Col xs={9}>
             <img
                 style={{
                     width: 400,
