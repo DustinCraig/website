@@ -16,6 +16,8 @@
 .underline {
     width: 100%;
     animation: grow 2s;
+    color: #fefefefe;
+    border: 1px solid #b9b9b9fe;
 }
 
 .underline-container {

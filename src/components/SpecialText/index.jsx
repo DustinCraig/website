@@ -1,3 +1,3 @@
 export default ({ text = '' }) => (
-    <span style={{ fontSize: '4rem', color: '#9f8b80' }}>{text}</span>
+    <span style={{ fontSize: '4rem', color: '#c89563', marginBottom: 14 }}>{text}</span>
 )
