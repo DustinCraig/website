@@ -1,6 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Text from '../../components/Text'
+import Github from '../../components/Navbar/Socials/Github'
+import LinkedIn from '../../components/Navbar/Socials/LinkedIn'
 import SpecialText from '../../components/SpecialText'
 import Image from '../../assets/images/Avatar.jpeg'
 
@@ -32,6 +34,16 @@ const About = () => (
             
             `}
                 />
+                <div
+                    style={{
+                        textAlign: 'center',
+                        width: '100%',
+                        marginTop: 70,
+                    }}
+                >
+                    <Github />
+                    <LinkedIn />
+                </div>
             </div>
         </Col>
         <Col xs={9}>
