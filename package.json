@@ -2,7 +2,7 @@
     "name": "website",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://dustincraig.github.io/website/",
+    "homepage": "https://dustincraig.github.io/website",
     "dependencies": {
         "@react-three/fiber": "^6.2.2",
         "@testing-library/jest-dom": "^5.12.0",

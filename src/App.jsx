@@ -11,7 +11,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Container className="container">
                 <div className="content">
                     <Navbar text={'Dustin Craig'} />
