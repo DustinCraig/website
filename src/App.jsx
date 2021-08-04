@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Container from 'react-bootstrap/Container'
 import Navbar from './components/Navbar'
+import Scene from './components/Scene'
 import Subtitle from './components/Subtitle'
 import { Route } from 'react-router'
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -12,11 +13,11 @@ import { BrowserRouter as Router } from 'react-router-dom'
 function App() {
     return (
         <Router basename={process.env.PUBLIC_URL}>
-            <Container className="container">
-                <div className="content">
+            <Container className='container'>
+                {/* <Scene /> */}
+                <div className='content'>
                     <Navbar text={'Dustin Craig'} />
-                    <Route exact path="/" component={About} />
-                    {/* <Route path='/about' component={About} /> */}
+                    <Route exact path='/' component={About} />
                 </div>
             </Container>
         </Router>
